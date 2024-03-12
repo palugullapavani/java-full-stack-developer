@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: rgb(242, 240, 240);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure the content inside the circle is properly clipped */
+}
+
+.circle img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 60%; /* Set border-radius here for a perfect circular shape */
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: anim 10s linear infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2em;
+    transform-origin: 0 100px;
+    transform: translateX(-50%); /* Centering the text horizontally */
+}
