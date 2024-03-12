@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contact.css'>
+    <script src='contact.js'></script>
+</head>
+<body>
+    <div class="menu">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <ion-icon name="grid-outline"></ion-icon>
+          </label>
+      
+          <label class="logo">
+            <img src="images/logo.png" alt="">
+          </label>
+      
+          <!-- Add your navigation links here -->
+          <ul>
+            <li><a href="/index.Html">index</a></li>
+            <li><a href="/Blog.Html">blog</a></li>
+            <li><a href="/contact.html">contact</a></li>
+            <li><a href="/About us.html">about</a></li>
+          </ul>
+        </nav>
+      </div>
+          
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+<script src="script.js"></script>
+
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+
+
+        <script type="text/javascript">
+
+        (function(){
+            emailjs.init("Y5qA-O1FICWwwfhUO");
+        })();
+        </script>
+
+
+
+</head>
+<body>
+
+    <div class="container">
+
+    <form>
+     <label for="Name">Name:</label>
+     <input type="text" id="Name" placeholder="Enter Your Name:">
+
+     <label for="Email-id">Email-id:</label>
+     <input type="text" id="Email-id" placeholder="Enter Your Email-id:">
+
+     <label for="Contact">Contact Number:</label>
+     <input type="text" id="Contact" placeholder="Enter Your Contact_Number:">
+
+     <label for="Subject">Subject:</label>
+     <input type="text" id="Subject" placeholder="Enter Your Subject:">
+
+     <label for="Message">Message:</label>
+     <textarea type="Message" id= "Message" placeholder="Enter Your Name:" style="height:150px"></textarea>
+
+    <input type="button" value="Send" onclick="sendMail()">
+
+    </form>
+    </div>
+
+
+</body>
+</html>
+</body>
+</html>
