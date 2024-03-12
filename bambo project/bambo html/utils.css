@@ -1,0 +1,33 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Glitch&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Balsamiq+Sans:ital,wght@1,700&family=Oswald:wght@300&family=Roboto&family=Rubik+Glitch&family=Rubik+Microbe&display=swap');
+
+ .root{
+    --main-bg-color:brown;
+   
+}
+.max-width-1{
+    max-width: 88vw;
+    }
+.max-width-2{
+ max-width: 60vw; 
+}
+.m-auto{
+    margin:auto;
+}
+.btn{
+    padding:8px 15px;
+    padding: top 3px;
+    border:3px solid black
+    border-redius:4px;
+    cursor: pointer;
+
+}
+.form-input{
+    padding:0px 5px;
+    font: size 16px; 
+    border-radius: 4px;
+    margin: 13px;
+    font: family: var(--font1); 
+
+}
+
