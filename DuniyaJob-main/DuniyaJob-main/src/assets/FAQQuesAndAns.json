@@ -1,0 +1,104 @@
+[
+    {
+        "id": "question-0",
+        "category": "employee",
+        "question": "How do I upgrade/downgrade my workplace plan?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-1",
+        "category": "employer",
+        "question": "Can I add other information be added to an invoice?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-2",
+        "category": "employee",
+        "question": "Why should I use a new table vs. a view?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-3",
+        "category": "employer",
+        "question": "How can I transfer data from one base to another?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-4",
+        "category": "employee",
+        "question": "How do I change my account email address?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-5",
+        "category": "employer",
+        "question": "How does billing work?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-6",
+        "category": "employee",
+        "question": "Can I share an individual app?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-7",
+        "category": "employer",
+        "question": "Can I export a list of all collaborators?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-8",
+        "category": "employee",
+        "question": "Can invoices be sent to other collaborators?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-9",
+        "category": "employer",
+        "question": "How do I contact support?",
+        "answer": "How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan? How do I upgrade/downgrade my workplace plan?"
+    },
+    {
+        "id": "question-10",
+        "category": "employee",
+        "question": "How do I request time off?",
+        "answer": "You can request time off by logging into our employee portal and submitting a time-off request. Make sure to follow the outlined procedures and provide adequate notice."
+    },
+    {
+        "id": "question-11",
+        "category": "employer",
+        "question": "How do I onboard a new employee?",
+        "answer": "To onboard a new employee, start by gathering necessary paperwork such as tax forms and employment agreements. Provide them with an orientation to the company, including an introduction to key team members and an overview of company policies and procedures. Set clear expectations and goals for their role, and ensure they have the tools and resources they need to succeed."
+    },
+    {
+        "id": "question-12",
+        "category": "employee",
+        "question": " What should I do if I witness harassment or misconduct in the workplace?",
+        "answer": "We take allegations of harassment and misconduct seriously. If you witness or experience any form of harassment or misconduct, please report it to HR immediately. Your confidentiality will be respected, and appropriate action will be taken."
+    },
+    {
+        "id": "question-13",
+        "category": "employer",
+        "question": "What steps should I take if an employee is underperforming?",
+        "answer": "Addressing underperformance requires a proactive approach. Start by having a candid conversation with the employee to identify any underlying issues or challenges. Provide constructive feedback and support, and work together to create a performance improvement plan if necessary. Document all discussions and monitor progress closely to ensure improvement."
+    },
+    {
+        "id": "question-14",
+        "category": "employee",
+        "question": "How often are performance evaluations conducted?",
+        "answer": "Performance evaluations are typically conducted annually, although the frequency may vary depending on your department and role. Your manager will communicate the schedule and process for performance evaluations."
+    },
+    {
+        "id": "question-15",
+        "category": "employer",
+        "question": "How do I handle employee conflicts or disputes?",
+        "answer": "Employee conflicts or disputes should be addressed promptly and professionally. Encourage open communication and try to resolve the issue informally if possible. If the conflict persists, involve HR or a mediator to facilitate a resolution. Document all steps taken and ensure fairness and confidentiality throughout the process."
+    },
+    {
+        "id": "question-16",
+        "category": "employee",
+        "question": "Who should I contact for general inquiries or assistance?",
+        "answer": "For general inquiries or assistance, you can reach out to your manager or contact our HR department. We're here to support you and ensure you have a positive experience working with us."
+    }
+]
