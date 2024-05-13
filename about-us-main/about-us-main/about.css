@@ -1,0 +1,69 @@
+:root {
+  --text-dark: #de661b;
+  --text-light: #6b7280;
+  --extra-light: #f3f4f6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.background {
+  height: 400px;
+  background:url(./assets/Screenshot-1-1210x642.webp );
+  position: relative;
+  margin-bottom: 5rem;
+  background-size: cover;
+}
+
+.background .image {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 8px solid #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.background img {
+  width: 100%;
+}
+
+.circle {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+.name {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  color: rgb(240, 13, 36); /* Change to desired color */
+}
+
+.content {
+  max-width: 600px;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.read__more {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
