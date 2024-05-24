@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(11, 11, 67);
+    align-items: center;
+    margin: auto;
+}
+.container .img{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 150px;
+    padding-bottom: 60px;
+    
+
+}
+.img{
+    color: white;
+}
+
+
+
+.navbar{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-size: 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+.sec1{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    padding-left: 450px;
+    padding-top: 100px;
+    line-height: 30px;
+}
+.sec1 h1{
+    color: rgb(44, 44, 216);
+}
+
+.sec2{
+    width: 100%;
+    height: 200px;
+    padding-left: 150px;
+    display: flex;
+    gap: 150px;
+    
+    
+}
+.sec3{
+    width: 100%;
+    height: 600px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.s3_cont{
+    font-size: 20px;
+}
+
+.sec4{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 25px;
+    gap: 100px;
+    background-color:rgb(76, 5, 143);
+    color: white;
+
+}
+
+.sec5{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 20px;
+    line-height: 35px;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 20px 8%;
+    padding-right: 30px;
+    text-transform: capitalize;
+    background-color:darkblue;
+    width: 90%;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    gap: 25px;
+}
+
+.footer .box-container .box{
+    flex: 1 1 200px;
+    color: white;
+    line-height: 25px;
+}
+
+.footer .box-container .box h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+
+.footer .box-container .box ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+.footer .box-container .box ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer last{
+    text-align: center;
+    list-style: none;
+}
+
+
+
+

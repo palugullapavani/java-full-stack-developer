@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*body{
+    background-color:rgb(178, 114, 237);
+}*/
+
+.container{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(205, 75, 127);
+    align-items: center;
+    margin: auto;
+}
+.container .img{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 400px;
+    padding-bottom: 60px;
+    
+
+}
+.img h1{
+    color: white;
+}
+
+.navbar{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-size: 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+
+.sec1{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    padding: 30px;
+    padding-left: 200px;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+}
+.sec1_d1{
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(126, 123, 123);
+    width: 500px;
+    height: 500px;
+}
+.sec1_d1 h1{
+    color: black;
+}
+.sec1_d2{
+    font-size: 25px;
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 20px 8%;
+    padding-right: 30px;
+    text-transform: capitalize;
+    background-color:darkblue;
+    width: 90%;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    gap: 25px;
+}
+
+.footer .box-container .box{
+    flex: 1 1 200px;
+    color: white;
+    line-height: 25px;
+}
+
+.footer .box-container .box h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+
+.footer .box-container .box ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+.footer .box-container .box ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer last{
+    text-align: center;
+    list-style: none;
+}

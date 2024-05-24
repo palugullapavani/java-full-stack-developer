@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(199, 199, 255);
+    align-items: center;
+    margin: auto;
+}
+.container .img{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 250px;
+    padding-bottom: 60px;
+    
+
+}
+.img{
+    color: white;
+}
+
+
+
+.navbar{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-size: 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+
+.sec1{
+    width: 100%;
+    height: 500px;
+    padding-left: 100px;
+    display: flex;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.s1_d2{
+    display: flex;
+    gap: 50px;
+    
+}
+.s1_logo{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.sec3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding-top: 200px;
+    padding-left: 150px;
+    gap: 20px;
+    font-size: 15px;
+}
+.s3_d1{
+    width: 250px;
+    height: 450px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px black;
+    line-height: 30px;
+}
+
+.sec4{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.s4_d1{
+    padding-top: 100px;
+}
+.s4_d2{
+    padding-bottom: 400px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 20px 8%;
+    padding-right: 30px;
+    text-transform: capitalize;
+    background-color:darkblue;
+    width: 90%;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    gap: 25px;
+}
+
+.footer .box-container .box{
+    flex: 1 1 200px;
+    color: white;
+    line-height: 25px;
+}
+
+.footer .box-container .box h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+
+.footer .box-container .box ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+.footer .box-container .box ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer last{
+    text-align: center;
+    list-style: none;
+}
+
+
+
+
