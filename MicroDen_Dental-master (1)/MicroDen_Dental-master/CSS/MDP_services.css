@@ -1,0 +1,11 @@
+fieldset{
+    border-color: green;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgb(247, 223, 179);
+}
+body{
+    background-color:rgb(252, 225, 225);
+}
